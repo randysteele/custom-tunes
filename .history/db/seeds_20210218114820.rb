@@ -5,5 +5,3 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-genre = Genre.find_or_create_by(name: "First Genre")
-Track.find_or_create_by(title: "First Track", artist: "Randy", year: "2021", genre_id: genre.id )
