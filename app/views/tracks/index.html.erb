@@ -1,0 +1,13 @@
+<br><br><br><h2> All Tracks </h2>
+
+
+<% if @tracks.count == 0 %>
+<h1><%= "Sorry, there are no tracks to see right now" %></h1>
+<% end %>
+
+<% @tracks.each do |t| %>
+<% t.title %>
+<% t.artist %>
+<% t.year %>
+
+<% end %>

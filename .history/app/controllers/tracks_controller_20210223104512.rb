@@ -2,7 +2,7 @@ class TracksController < ApplicationController
 
     def index
         @tracks = Track.all
-        render erb: @index
+        render erb: @tracks
     end
 
     def create 
